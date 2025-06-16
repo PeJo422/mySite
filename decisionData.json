@@ -1,0 +1,72 @@
+[
+    {
+      type: "Descriptive",
+      question: "What happened?",
+      complexity: "Low",
+      timeToValue: "Days-Weeks",
+      businessImpact: "Foundation",
+      examples: "Dashboard KPIs, Sales reports",
+      pitfalls: "Vanity metrics, Data quality issues",
+      realExample: "Amazon's daily revenue dashboard"
+    },
+    {
+      type: "Diagnostic",
+      question: "Why did it happen?",
+      complexity: "Medium",
+      timeToValue: "Weeks",
+      businessImpact: "Problem-solving",
+      examples: "Root cause analysis, Correlation studies",
+      pitfalls: "Correlation vs causation, Analysis paralysis",
+      realExample: "Spotify's UI engagement analysis"
+    },
+    {
+      type: "Predictive",
+      question: "What will happen?",
+      complexity: "High",
+      timeToValue: "Months",
+      businessImpact: "Planning",
+      examples: "Demand forecasting, Churn prediction",
+      pitfalls: "Overfitting, Ignoring seasonality",
+      realExample: "Netflix show renewal predictions"
+    },
+    {
+      type: "Prescriptive",
+      question: "What should we do?",
+      complexity: "Very High",
+      timeToValue: "Quarters",
+      businessImpact: "Optimization",
+      examples: "Route optimization, Dynamic pricing",
+      pitfalls: "Impractical recommendations, Missing constraints",
+      realExample: "UPS ORION delivery optimization"
+    },
+    {
+      type: "Cognitive/AI",
+      question: "Can systems think?",
+      complexity: "Very High",
+      timeToValue: "Quarters",
+      businessImpact: "Transformation",
+      examples: "NLP, Image recognition, Chatbots",
+      pitfalls: "No clear use case, Bias issues",
+      realExample: "JPMorgan's COIN document analysis"
+    },
+    {
+      type: "Real-Time",
+      question: "What's happening now?",
+      complexity: "High",
+      timeToValue: "Months",
+      businessImpact: "Agility",
+      examples: "Fraud detection, Live monitoring",
+      pitfalls: "Over-engineering, Scalability issues",
+      realExample: "PayPal's real-time fraud detection"
+    },
+    {
+      type: "Strategic/BI",
+      question: "How to compete?",
+      complexity: "Medium",
+      timeToValue: "Weeks-Months",
+      businessImpact: "Competitive Advantage",
+      examples: "Market analysis, Customer LTV",
+      pitfalls: "Short-term focus, No actionable insights",
+      realExample: "Walmart's market basket analysis"
+    }
+  ]
