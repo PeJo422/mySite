@@ -1,12 +1,12 @@
-lang: sv
+lang: en
 title: Natty Dev
 copyright: © 2024. All rights reserved.
 
 theme: jekyll-theme-primer
-
+permalink: /blog/:year/:month/:day/:title/
 menu:
   - title: Blog
-    url:   /blogg/
+    url:   /blog/
   - title: Showcase
     url:   /showcase/
   - title: Resume
@@ -18,4 +18,3 @@ collections:
   showcase:
     output: true
     permalink: /showcase/:title/
-    
