@@ -1,17 +1,15 @@
 ---
 layout: page
-title: Bloggen
+title: Blog
 permalink: /blog/
 ---
-
-## Senaste från bloggen
-
-Välkommen till min blogg! Här delar jag med mig av tankar, insikter och erfarenheter från mitt arbete med data, BI, transformationer och teknik i ständig rörelse. Det blir allt från hands-on tips i Power BI och dbt
+Welcome to my blog! This is where I share thoughts, insights, and experiences from my work with data, BI, transformations, and ever-evolving technology. 
+You'll find everything from hands-on tips in Power BI, sql, dbt to good data practices
 
 
 ---
 
-<h1>Senaste inläggen</h1>
+<h3>Latest posts</h3>
 <ul>
   {% for post in site.posts %}
     <li>

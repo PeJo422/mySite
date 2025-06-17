@@ -1,21 +1,18 @@
 ---
-title: "Mitt Demo Projekt"
+title: "Lazy Project"
 date: 2025-06-17
 layout: showcase
 description: "Ett coolt projekt där jag byggde en dashboard med Power BI och Python."
 ---
+Here I showcase an exciting project where I combined SQL, Power BI, and Python to create an interactive dashboard that transforms raw data chaos into beautiful business insights.
+---
+## Features
 
-# Mitt Första Projekt
+- Real-time data from SQL database
+- Automated data processing with Python and Pandas
+- Responsive design and elegant visualization in Power BI
 
-Här visar jag upp ett spännande projekt där jag kombinerade SQL, Power BI och Python för att skapa en interaktiv dashboard.
-
-## Funktioner
-
-- Realtidsdata från SQL-databasen
-- Automatiserad datahantering med Python och Pandas
-- Responsiv design och snygg visualisering i Power BI
-
-## Bilder från projektet
+## Project Images
 
 ![Dashboard Preview](../assets/images/showcase/dashboard-preview.png)  
 *Dashboarden visar KPI:er i realtid.*
