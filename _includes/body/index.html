@@ -1,4 +1,4 @@
-{% include_cached pro/dark-mode-fix.html %}
+{% include pro/dark-mode-fix.html %}
 
 {% assign assets_url = "/assets/" | relative_url %}
 <hy-push-state
@@ -9,16 +9,16 @@
   duration="500"
   hashchange
 >
-  {% capture sidebar %}{% include_cached body/sidebar.html cover=page.cover invert=page.invert_sidebar theme_color=page.theme_color image=image color=color %}{% endcapture %}
+  {% capture sidebar %}{% include body/sidebar.html cover=page.cover invert=page.invert_sidebar theme_color=page.theme_color image=image color=color %}{% endcapture %}
   {% if page.cover %}{{ sidebar }}{% endif %}
-  {% include_cached body/menu.html %}
+  {% include body/menu.html %}
   {% include body/main.html %}
   {% unless page.cover %}{{ sidebar }}{% endunless %}
 </hy-push-state>
 
 {% unless page.redirect %}
-  {% include_cached body/scripts.html %}
+  {% include body/scripts.html %}
   {% include my-body.html %}
 {% endunless %}
 
-{% include_cached templates/index.html %}
+{% include templates/index.html %}
