@@ -8,10 +8,10 @@ logo: "/assets/img/logo.png"
 
 theme: jekyll-theme-primer
 permalink: /blog/:year/:month/:day/:title/
-url: "https://pejo422.github.io/"
-baseurl: "/mySite"
 
-
+accent_image: /assets/img/sidebar-bg.jpg
+accent_color: rgb(79,177,186)
+theme_color:  rgb(25,55,71)
 
 menu:
   - title: Blog
@@ -35,3 +35,4 @@ author:
   social:
     github: pejo422
     linkedin: peter-johannessen
+    

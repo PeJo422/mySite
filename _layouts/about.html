@@ -19,25 +19,26 @@ layout: base
     <div class="author-info">
       
       <h3>{{ author.name }}</h3>
-      
       {% if author.email %}
-        <p>e-mail: <a href="mailto:{{ author.email }}">{{ author.email }}</a></p>
-      {% endif %}
-      {% if author.website %}
-        <p>Website: <a href="{{ author.website }}">{{ author.website }}</a></p>
-      {% endif %}
-
-      {% if author.social.linkedin %}
-      <p>Linkedin: <a href="https://www.linkedin.com/in/{{ author.social.linkedin }}">{{ author.social.linkedin }}</a></p>
+      <p>e-mail: <a href="mailto:{{ author.email }}">{{ author.email }}</a></p>
     {% endif %}
+      {% assign author = site.data.authors.first[1] | default:site.author %}
+      <div class="sidebar-social">
+        {% include components/social.html author=author %}
+
+
+
   
       {% if author.about %}
         <p>{{ author.about | markdownify }}</p>
       {% endif %}
     </div>
   {% endcapture %}
+
     {% assign content = content | replace:"<!--author-->", author_x %}
   {% endif %}
+
+  
 
   <header>
     <h1 class="page-title">{{ page.title }}</h1>
