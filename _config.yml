@@ -1,12 +1,17 @@
 lang: en
 title: Peter Johannessen
-subtitle: "A data and analytics journey"
 copyright: © 2025. All rights reserved.
+tagline: "From classic BI to future-ready data engineering"
+description: "Exploring dbt, Power BI, DAX tricks, SQL villains & data magic and more..."
+
+logo: "/assets/img/logo.png"
 
 theme: jekyll-theme-primer
 permalink: /blog/:year/:month/:day/:title/
 url: "https://pejo422.github.io/"
 baseurl: "/mySite"
+
+
 
 menu:
   - title: Blog

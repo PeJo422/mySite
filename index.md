@@ -1,10 +1,13 @@
 ---
 layout: home
-title: "Peter – Från BI till Analytics Engineering"
+title: "From BI till Analytics Engineering"
+subtitle: "A data and analytics journey"
 cover: true
+
 ---
 
 # 💻 Join My Journey – From Traditional BI to the Future of Data
+
 
 **Welcome!**  
 I’m Peter – SQL wrangler, Power BI wizard, DAX detective, and full-time data rebel on a mission to modernize everything.
