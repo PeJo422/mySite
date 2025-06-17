@@ -20,3 +20,11 @@ collections:
   showcase:
     output: true
     permalink: /showcase/:title/
+
+author:
+  name:  Peter Johannessen
+  email: pejo422@outlook.com
+  picture: /assets/img/profile.jpg
+  social:
+    github: pejo422
+    linkedin: peter-johannessen
