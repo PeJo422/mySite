@@ -12,4 +12,4 @@ Här skriver jag om:
 - SQL och datamodellering
 - Hur man bygger en hållbar vardag som förälder, analytiker och människa
 
-Vill du snacka data eller dansa samba? Släng iväg ett mejl! 💌
+Vill du snacka data eller dansa samba? Släng iväg ett mejl!
