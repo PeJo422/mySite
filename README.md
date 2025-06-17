@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 # Hydejack
@@ -181,3 +182,6 @@ The table below shows what's included in each version:
 [rouge]: http://rouge.jneen.net
 [katex]: https://khan.github.io/KaTeX/
 [mathjax]: https://www.mathjax.org/
+=======
+# mySite
+>>>>>>> 6661120ae7214c30cb3f75f10201875a4fc05e81
