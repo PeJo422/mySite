@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Min första bloggpost"
+title: "My first post"
 date: 2025-06-17 10:00:00 +0200
 categories: blogg
 tags: [jekyll, hydejack, github-pages]
