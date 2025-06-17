@@ -6,7 +6,7 @@ theme: jekyll-theme-primer
 
 menu:
   - title: Blog
-    url:   /blog/
+    url:   /_posts/
   - title: Showcase
     url:   /showcase/
   - title: Resume
