@@ -14,14 +14,13 @@ Välkommen till min showcase – ett digitalt skyltfönster för det jag skapar 
 
 <ul class="showcase-list">
   {% for item in showcases %}
-    <li>
-      <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+<h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
       <p><small><strong>{{ item.date | date: "%Y-%m-%d" }}</strong></small></p>
       <p>{{ item.excerpt | strip_html | truncatewords: 30 }}</p>
       {% if item.image %}
-        <img src="{{ item.image }}" alt="{{ item.title }}" style="max-width: 100%; margin-top: 1rem;">
+<img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
       {% endif %}
-      <p><a href="{{ item.url }}">Se mer →</a></p>
+      <p><a href="{{ item.url | relative_url }}">Se mer →</a></p>
     </li>
   {% endfor %}
 </ul>
