@@ -6,9 +6,9 @@ theme: jekyll-theme-primer
 
 menu:
   - title: Blog
-    url:   /_posts/
+    url:   /posts/
   - title: Showcase
-    url:   /_showcase/
+    url:   /showcase/
   - title: Resume
     url:   /resume/
   - title: About
