@@ -1,6 +1,7 @@
 ---
 title: "Mitt Demo Projekt"
 date: 2025-06-17
+layout: showcase
 description: "Ett coolt projekt där jag byggde en dashboard med Power BI och Python."
 ---
 
