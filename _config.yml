@@ -3,3 +3,13 @@ title: DattyDev
 copyright: © 2024. All rights reserved.
 
 theme: jekyll-theme-primer
+
+menu:
+  - title: Blog
+    url:   /blog/
+  - title: Showcase
+    url:   /showcase/
+  - title: Resume
+    url:   /resume/
+  - title: About
+    url:   /about/
