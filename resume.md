@@ -46,6 +46,4 @@ permalink: /resume/
 
 ## Kontakt
 
-📧 peter@example.com  
-📍 Sverige  
-📎 LinkedIn: [linkedin.com/in/dinprofil](#)
+<!--author-->

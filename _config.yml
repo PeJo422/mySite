@@ -1,11 +1,13 @@
 lang: en
 title: Peter Johannessen
+subtitle: "A data and analytics journey"
 copyright: © 2025. All rights reserved.
 
 theme: jekyll-theme-primer
 permalink: /blog/:year/:month/:day/:title/
 url: "https://pejo422.github.io/"
 baseurl: "/mySite"
+
 menu:
   - title: Blog
     url:   /blog/

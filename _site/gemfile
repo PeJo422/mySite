@@ -6,7 +6,7 @@ gem "jekyll", "~> 4.4.1"
 
 # Lägg till ditt tema, t.ex.:
 gem "jekyll-theme-primer"
-
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 # Lägg till plugins om du använder dem i _config.yml
 # gem "jekyll-feed"
 # gem "jekyll-seo-tag"
