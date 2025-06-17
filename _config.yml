@@ -8,13 +8,13 @@ menu:
   - title: Blog
     url:   /_posts/
   - title: Showcase
-    url:   /showcase/
+    url:   /_showcase/
   - title: Resume
     url:   /resume/
   - title: About
     url:   /about/
 
-  collections:
-    showcase:
-      output: true
-      permalink: /showcase/:title/
+collections:
+  showcase:
+    output: true
+    permalink: /showcase/:title/
