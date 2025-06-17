@@ -13,3 +13,8 @@ menu:
     url:   /resume/
   - title: About
     url:   /about/
+
+  collections:
+    showcase:
+      output: true
+      permalink: /showcase/:title/
