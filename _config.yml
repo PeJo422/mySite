@@ -18,3 +18,4 @@ collections:
   showcase:
     output: true
     permalink: /showcase/:title/
+    
